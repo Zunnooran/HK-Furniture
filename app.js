@@ -22,7 +22,7 @@ app.use(express.json());
 
 //Load Routes
 app.use("/api/user", userRoutes);
-app.use("/api/trending", productRoutes);
+app.use("/api/product", productRoutes);
 app.use("/api/trending", trendingRoutes);
 
 app.listen(port, () => {
