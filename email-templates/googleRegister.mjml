@@ -1,0 +1,61 @@
+<mjml>
+    <mj-head>
+    <mj-attributes>
+      <mj-class name="mjclass" color="green" font-size="30px" />
+    </mj-attributes>
+    <mj-style>
+      .link{
+        font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #FFFFFF;
+        text-decoration: none !important;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body  width="640px" >
+
+    <mj-raw>
+      <!-- Company Header -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+         
+        <mj-text  font-family="Poppins, sans-serif"font-style="normal" font-size="24px" color="#121A26" font-weight="600"> The Body Doctor</mj-text>
+                
+
+      </mj-column>
+       <mj-column>
+        <mj-social font-size="15px" icon-size="25px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.facebook.com/CapregSoft/">
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/capregsoft/">
+          </mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/capregsoft">   
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider border-color="#CBD5E1" border-width="1px"></mj-divider>
+      </mj-column>
+    
+    </mj-section>
+    <mj-section>
+      <mj-column>
+       
+        <mj-text font-family="Poppins, sans-serif" font-style="normal" font-weight="700" font-size="24px" line-height="140%" color="#121A26">Registration Success</mj-text>
+        <mj-text font-family="Poppins, sans-serif" font-size="16px" font-style="normal" line-height="150%" font-weight="400" letter-spacing="0.2px">Hi <strong>{{name}}</strong> 👋<br><br> Thanks for Joinng The Body Doctor <br><br> Welcome! If there’s anything you need.<br></br> Thanks, <br>The Body Doctor Team</mj-text>
+          
+          <mj-button href="{{url}}" font-family="Poppins, sans-serif" height="57px" padding="20px 32px"css-class="gradient-button" align="left" border-radius="0px" background-color="#2C5364" color="#FFFFFF">Registration successfull</mj-button>
+      </mj-column>
+      </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text font-family="Poppins, sans-serif" font-style="normal" font-size="16px" font-weight="400" line-height="150%" letter-spacing="0.2px">This email was sent to <a href={{email}}>{{email}}</a>. If you'd rather not receive this kind of email, Don’t want any more emails from The Body Doctor? <a href="https://www.gmail.com//">Unsubscribe</a>.<br></br>03435006050</br> © 2023 The Body Doctor</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+   
+</mjml>
